@@ -90,7 +90,7 @@ function collabco_settings_feature_apachesolr_environments() {
     'apachesolr_search_type_boosts' => array(
       'basic_page' => '0',
       'challenge' => '0',
-      'discussion' => '0',
+      'conversation' => '0',
       'group' => '0',
       'wiki_page' => '0',
     ),
@@ -111,7 +111,7 @@ function collabco_settings_feature_apachesolr_environments() {
       'entity_type' => '0',
       'hash' => '0',
       'id' => '0',
-      'im_field_supporting_discussion' => '0',
+      'im_field_supporting_conversation' => '0',
       'is_tnid' => '0',
       'is_uid' => '0',
       'label' => '5.0',
@@ -144,7 +144,7 @@ function collabco_settings_feature_apachesolr_environments() {
   $environment->index_bundles = array(
     'node' => array(
       0 => 'basic_page',
-      1 => 'discussion',
+      1 => 'conversation',
       2 => 'event',
       3 => 'group',
       4 => 'knowledge_object',

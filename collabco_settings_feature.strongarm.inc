@@ -468,9 +468,9 @@ function collabco_settings_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'pathauto_node_discussion_pattern';
+  $strongarm->name = 'pathauto_node_conversation_pattern';
   $strongarm->value = 'conversations/[node:title]';
-  $export['pathauto_node_discussion_pattern'] = $strongarm;
+  $export['pathauto_node_conversation_pattern'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
