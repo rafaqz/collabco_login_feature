@@ -168,6 +168,7 @@ features[variable][] = site_404
 features[variable][] = site_default_country
 features[variable][] = user_admin_role
 features[variable][] = user_cancel_method
+features[variable][] = user_email_verification
 features[variable][] = user_mail_status_canceled_notify
 features[variable][] = user_mail_status_canceled_subject
 features[variable][] = user_picture_default

@@ -987,6 +987,13 @@ function collabco_settings_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'user_email_verification';
+  $strongarm->value = 1;
+  $export['user_email_verification'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'user_mail_status_canceled_notify';
   $strongarm->value = 1;
   $export['user_mail_status_canceled_notify'] = $strongarm;
@@ -1009,7 +1016,7 @@ function collabco_settings_feature_strongarm() {
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
   $strongarm->name = 'user_picture_default';
-  $strongarm->value = 'http://profiles/collabco/themes/openhub/images/avatar-blank.jpg';
+  $strongarm->value = 'public://pictures/avatar-blank.jpg';
   $export['user_picture_default'] = $strongarm;
 
   $strongarm = new stdClass();
