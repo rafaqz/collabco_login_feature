@@ -2,7 +2,7 @@ name = Collabco Settings Feature
 core = 7.x
 package = Collabco
 php = 5.2.4
-version = 7.x-1.0-alpha1
+version = unknown
 project = collabco_settings_feature
 dependencies[] = apachesolr
 dependencies[] = apachesolr_search
@@ -14,7 +14,7 @@ dependencies[] = iin_profile_block
 dependencies[] = masquerade
 dependencies[] = strongarm
 dependencies[] = text
-datestamp = 1376967633
+datestamp = 1377179613
 features[apachesolr_search_page][] = core_search
 features[apachesolr_search_page][] = taxonomy_search
 features[ctools][] = apachesolr:apachesolr_environments:1
@@ -165,6 +165,7 @@ features[variable][] = reg_with_pic_weight
 features[variable][] = register_preapproved_roles
 features[variable][] = site_403
 features[variable][] = site_404
+features[variable][] = site_default_country
 features[variable][] = user_admin_role
 features[variable][] = user_cancel_method
 features[variable][] = user_mail_status_canceled_notify
@@ -178,19 +179,3 @@ features[variable][] = user_picture_style
 features[variable][] = user_pictures
 features[variable][] = user_register
 features[variable][] = user_signatures
-
-
-; Information added by drush on 2013-08-19
-version = "7.x-1.0-alpha1"
-core = "7.x"
-project = "collabco_settings_feature"
-datestamp = "1376976847"
-
-
-
-; Information added by drush on 2013-08-20
-version = "7.x-1.0-alpha1"
-core = "7.x"
-project = "collabco_settings_feature"
-datestamp = "1377048590"
-
