@@ -15,6 +15,7 @@ dependencies[] = masquerade
 dependencies[] = strongarm
 dependencies[] = text
 datestamp = 1377572861
+features[apachesolr_environment][] = solr
 features[apachesolr_search_page][] = core_search
 features[apachesolr_search_page][] = taxonomy_search
 features[ctools][] = apachesolr:apachesolr_environments:1
