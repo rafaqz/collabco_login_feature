@@ -24,10 +24,10 @@ function collabco_settings_feature_default_fe_block_settings() {
       'authenticated user' => 2,
     ),
     'themes' => array(
-      'openhub' => array(
+      'custom_theme' => array(
         'region' => 'sidebar_first',
         'status' => 1,
-        'theme' => 'openhub',
+        'theme' => 'custom_theme',
         'weight' => -33,
       ),
       'seven' => array(
@@ -58,10 +58,10 @@ partners-providers',
       'authenticated user' => 2,
     ),
     'themes' => array(
-      'openhub' => array(
+      'custom_theme' => array(
         'region' => 'sidebar_second',
         'status' => 1,
-        'theme' => 'openhub',
+        'theme' => 'custom_theme',
         'weight' => -24,
       ),
       'seven' => array(
@@ -85,10 +85,10 @@ partners-providers',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'openhub' => array(
+      'custom_theme' => array(
         'region' => 'sidebar_first',
         'status' => 1,
-        'theme' => 'openhub',
+        'theme' => 'custom_theme',
         'weight' => -29,
       ),
       'seven' => array(
@@ -112,10 +112,10 @@ partners-providers',
     'pages' => 'innovation-capabilities',
     'roles' => array(),
     'themes' => array(
-      'openhub' => array(
+      'custom_theme' => array(
         'region' => 'sidebar_first',
         'status' => 1,
-        'theme' => 'openhub',
+        'theme' => 'custom_theme',
         'weight' => -32,
       ),
       'seven' => array(
@@ -139,10 +139,10 @@ partners-providers',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'openhub' => array(
+      'custom_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'openhub',
+        'theme' => 'custom_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -166,10 +166,10 @@ partners-providers',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'openhub' => array(
+      'custom_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'openhub',
+        'theme' => 'custom_theme',
         'weight' => 0,
       ),
       'seven' => array(
@@ -193,10 +193,10 @@ partners-providers',
     'pages' => '',
     'roles' => array(),
     'themes' => array(
-      'openhub' => array(
+      'custom_theme' => array(
         'region' => '',
         'status' => 0,
-        'theme' => 'openhub',
+        'theme' => 'custom_theme',
         'weight' => 0,
       ),
       'seven' => array(
