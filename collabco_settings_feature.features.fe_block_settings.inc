@@ -83,7 +83,11 @@ partners-providers',
     'module' => 'masquerade',
     'node_types' => array(),
     'pages' => '',
-    'roles' => array(),
+    'roles' => array(
+      'Admin' => 3,
+      'Community Moderator' => 4,
+      'Content Manager' => 5,
+    ),
     'themes' => array(
       'custom_theme' => array(
         'region' => 'sidebar_first',
@@ -109,7 +113,7 @@ partners-providers',
     'delta' => 'form',
     'module' => 'search',
     'node_types' => array(),
-    'pages' => 'innovation-capabilities',
+    'pages' => '',
     'roles' => array(),
     'themes' => array(
       'custom_theme' => array(

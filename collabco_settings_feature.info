@@ -14,7 +14,7 @@ dependencies[] = iin_profile_block
 dependencies[] = masquerade
 dependencies[] = strongarm
 dependencies[] = text
-datestamp = 1377572861
+datestamp = 1377761539
 features[apachesolr_environment][] = solr
 features[apachesolr_search_page][] = core_search
 features[apachesolr_search_page][] = taxonomy_search
@@ -182,10 +182,3 @@ features[variable][] = user_picture_style
 features[variable][] = user_pictures
 features[variable][] = user_register
 features[variable][] = user_signatures
-
-
-; Information added by drush on 2013-08-28
-version = "unknown"
-project = "collabco_settings_feature"
-datestamp = "1377754356"
-
