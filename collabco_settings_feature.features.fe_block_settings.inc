@@ -14,7 +14,7 @@ function collabco_settings_feature_default_fe_block_settings() {
 
   $export['iin_navigation_block-iin_navigation_block'] = array(
     'cache' => 1,
-    'css_class' => 'iin-feature',
+    'css_class' => 'sidetheme_nav',
     'custom' => 0,
     'delta' => 'iin_navigation_block',
     'module' => 'iin_navigation_block',
@@ -43,17 +43,14 @@ function collabco_settings_feature_default_fe_block_settings() {
 
   $export['iin_profile_block-iin_profile_block'] = array(
     'cache' => 1,
-    'css_class' => 'iin-profile-block',
+    'css_class' => 'iin-profile-block ',
     'custom' => 0,
     'delta' => 'iin_profile_block',
     'module' => 'iin_profile_block',
     'node_types' => array(),
-    'pages' => 'user*
-our-vision
-services
-services/*
-members
-partners-providers',
+    'pages' => 'our-vision
+node/*/edit
+user/*/edit',
     'roles' => array(
       'authenticated user' => 2,
     ),
@@ -77,7 +74,7 @@ partners-providers',
 
   $export['masquerade-masquerade'] = array(
     'cache' => -1,
-    'css_class' => '',
+    'css_class' => 'masquerade',
     'custom' => 0,
     'delta' => 'masquerade',
     'module' => 'masquerade',
@@ -144,7 +141,7 @@ partners-providers',
     'roles' => array(),
     'themes' => array(
       'custom_theme' => array(
-        'region' => 'content_top',
+        'region' => 'content_upper',
         'status' => 1,
         'theme' => 'custom_theme',
         'weight' => 0,
@@ -194,8 +191,10 @@ partners-providers',
     'delta' => 'login',
     'module' => 'user',
     'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
+    'pages' => '<front>',
+    'roles' => array(
+      'anonymous user' => 1,
+    ),
     'themes' => array(
       'custom_theme' => array(
         'region' => '',
@@ -211,7 +210,7 @@ partners-providers',
       ),
     ),
     'title' => '',
-    'visibility' => 0,
+    'visibility' => 1,
   );
 
   return $export;
