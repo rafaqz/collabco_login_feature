@@ -103,33 +103,6 @@ user/*/edit',
     'visibility' => 0,
   );
 
-  $export['search-form'] = array(
-    'cache' => -1,
-    'css_class' => 'nobordershadow nobackground',
-    'custom' => 0,
-    'delta' => 'form',
-    'module' => 'search',
-    'node_types' => array(),
-    'pages' => '',
-    'roles' => array(),
-    'themes' => array(
-      'custom_theme' => array(
-        'region' => 'sidebar_first',
-        'status' => 1,
-        'theme' => 'custom_theme',
-        'weight' => -22,
-      ),
-      'seven' => array(
-        'region' => '',
-        'status' => 0,
-        'theme' => 'seven',
-        'weight' => 0,
-      ),
-    ),
-    'title' => '',
-    'visibility' => 0,
-  );
-
   $export['system-main'] = array(
     'cache' => -1,
     'css_class' => '',

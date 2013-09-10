@@ -13,45 +13,6 @@ function collabco_settings_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'apachesolr_default_environment';
-  $strongarm->value = 'solr';
-  $export['apachesolr_default_environment'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'apachesolr_search_mlt_blocks';
-  $strongarm->value = array(
-    'mlt-001' => array(
-      'name' => 'More like this',
-      'mlt_env_id' => 'solr',
-      'num_results' => '5',
-      'mlt_fl' => array(
-        'label' => 'label',
-        'taxonomy_names' => 'taxonomy_names',
-      ),
-      'mlt_mintf' => '1',
-      'mlt_mindf' => '1',
-      'mlt_minwl' => '3',
-      'mlt_maxwl' => '15',
-      'mlt_maxqt' => '20',
-      'mlt_type_filters' => array(),
-      'mlt_custom_filters' => '',
-      'delta' => 'mlt-001',
-    ),
-  );
-  $export['apachesolr_search_mlt_blocks'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'apachesolr_site_hash';
-  $strongarm->value = '506qie';
-  $export['apachesolr_site_hash'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'captcha_add_captcha_description';
   $strongarm->value = 1;
   $export['captcha_add_captcha_description'] = $strongarm;
@@ -365,13 +326,6 @@ function collabco_settings_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'image_toolkit';
-  $strongarm->value = 'gd';
-  $export['image_toolkit'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'legal_display';
   $strongarm->value = '3';
   $export['legal_display'] = $strongarm;
@@ -471,13 +425,6 @@ function collabco_settings_feature_strongarm() {
   $strongarm->name = 'pathauto_node_conversation_pattern';
   $strongarm->value = 'conversations/[node:title]';
   $export['pathauto_node_conversation_pattern'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'pathauto_node_group_pattern';
-  $strongarm->value = 'group/[node:title]';
-  $export['pathauto_node_group_pattern'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
@@ -755,44 +702,9 @@ function collabco_settings_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'pathauto_taxonomy_term_areas_of_participant_expertise_pattern';
-  $strongarm->value = '';
-  $export['pathauto_taxonomy_term_areas_of_participant_expertise_pattern'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'pathauto_taxonomy_term_how_i_d_like_to_participate_pattern';
-  $strongarm->value = '';
-  $export['pathauto_taxonomy_term_how_i_d_like_to_participate_pattern'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'pathauto_taxonomy_term_industries_pattern';
-  $strongarm->value = '';
-  $export['pathauto_taxonomy_term_industries_pattern'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'pathauto_taxonomy_term_organization_type_pattern';
-  $strongarm->value = '';
-  $export['pathauto_taxonomy_term_organization_type_pattern'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'pathauto_taxonomy_term_pattern';
   $strongarm->value = '[term:vocabulary]/[term:name]';
   $export['pathauto_taxonomy_term_pattern'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'pathauto_taxonomy_term_precinct_pattern';
-  $strongarm->value = '';
-  $export['pathauto_taxonomy_term_precinct_pattern'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
