@@ -333,6 +333,24 @@ function collabco_settings_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'locale_custom_disabled_strings_en';
+  $strongarm->value = array();
+  $export['locale_custom_disabled_strings_en'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
+  $strongarm->name = 'locale_custom_strings_en';
+  $strongarm->value = array(
+    '' => array(
+      'Save' => 'Submit',
+    ),
+  );
+  $export['locale_custom_strings_en'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'menu_options_basic_page';
   $strongarm->value = array(
     0 => 'main-menu',
@@ -425,13 +443,6 @@ function collabco_settings_feature_strongarm() {
   $strongarm->name = 'pathauto_node_conversation_pattern';
   $strongarm->value = 'conversations/[node:title]';
   $export['pathauto_node_conversation_pattern'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
-  $strongarm->name = 'pathauto_node_knowledge_object_pattern';
-  $strongarm->value = 'knowledge/[node:title]';
-  $export['pathauto_node_knowledge_object_pattern'] = $strongarm;
 
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
