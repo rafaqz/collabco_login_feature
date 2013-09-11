@@ -48,9 +48,7 @@ function collabco_settings_feature_default_fe_block_settings() {
     'delta' => 'iin_profile_block',
     'module' => 'iin_profile_block',
     'node_types' => array(),
-    'pages' => 'our-vision
-node/*/edit
-user/*/edit',
+    'pages' => '',
     'roles' => array(
       'authenticated user' => 2,
     ),
