@@ -139,7 +139,7 @@ function collabco_settings_feature_field_default_field_instances() {
     'entityconnect_unload_add' => 1,
     'entityconnect_unload_edit' => 1,
     'field_name' => 'og_group_ref',
-    'label' => 'Only make this available to the group(s):',
+    'label' => 'Only made available to the group(s)',
     'required' => 0,
     'settings' => array(
       'behaviors' => array(
@@ -302,7 +302,7 @@ function collabco_settings_feature_field_default_field_instances() {
   t('Comment');
   t('First Name');
   t('Last Name');
-  t('Only make this available to the group(s):');
+  t('Only made available to the group(s)');
 
   return $field_instances;
 }
