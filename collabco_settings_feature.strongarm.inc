@@ -371,8 +371,9 @@ function collabco_settings_feature_strongarm() {
   $strongarm->name = 'locale_custom_strings_en';
   $strongarm->value = array(
     '' => array(
-      'Save' => 'Submit',
       'Enter the username to masquerade as.' => '',
+      'Save' => 'Submit',
+      'New content' => 'Add a new file',
     ),
   );
   $export['locale_custom_strings_en'] = $strongarm;
