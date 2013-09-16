@@ -43,12 +43,12 @@ function collabco_settings_feature_default_fe_block_settings() {
 
   $export['iin_profile_block-iin_profile_block'] = array(
     'cache' => 1,
-    'css_class' => 'iin-profile-block ',
+    'css_class' => 'iin-profile-block  paddingreset',
     'custom' => 0,
     'delta' => 'iin_profile_block',
     'module' => 'iin_profile_block',
     'node_types' => array(),
-    'pages' => '',
+    'pages' => 'services',
     'roles' => array(
       'authenticated user' => 2,
     ),
