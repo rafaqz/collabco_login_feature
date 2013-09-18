@@ -114,68 +114,6 @@ function collabco_settings_feature_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-basic_page-og_group_ref'
-  $field_instances['node-basic_page-og_group_ref'] = array(
-    'bundle' => 'basic_page',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'module' => 'og_ui',
-        'settings' => array(),
-        'type' => 'og_list_default',
-        'weight' => 1,
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-    ),
-    'entity_type' => 'node',
-    'entityconnect_unload_add' => 1,
-    'entityconnect_unload_edit' => 1,
-    'field_name' => 'og_group_ref',
-    'label' => 'Only made available to the group(s)',
-    'required' => 0,
-    'settings' => array(
-      'behaviors' => array(
-        'og_widget' => array(
-          'admin' => array(
-            'widget_type' => 'options_buttons',
-          ),
-          'default' => array(
-            'widget_type' => 'options_buttons',
-          ),
-          'status' => TRUE,
-        ),
-      ),
-      'user_register_form' => FALSE,
-    ),
-    'view modes' => array(
-      'full' => array(
-        'custom settings' => FALSE,
-        'label' => 'Full',
-        'type' => 'og_list_default',
-      ),
-      'teaser' => array(
-        'custom settings' => FALSE,
-        'label' => 'Teaser',
-        'type' => 'og_list_default',
-      ),
-    ),
-    'widget' => array(
-      'active' => 0,
-      'module' => 'og',
-      'settings' => array(),
-      'type' => 'og_complex',
-      'weight' => 32,
-    ),
-  );
-
   // Exported field_instance: 'user-user-field_first_name'
   $field_instances['user-user-field_first_name'] = array(
     'bundle' => 'user',
@@ -302,7 +240,6 @@ function collabco_settings_feature_field_default_field_instances() {
   t('Comment');
   t('First Name');
   t('Last Name');
-  t('Only made available to the group(s)');
 
   return $field_instances;
 }
