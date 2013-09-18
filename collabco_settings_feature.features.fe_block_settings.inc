@@ -78,11 +78,7 @@ function collabco_settings_feature_default_fe_block_settings() {
     'module' => 'masquerade',
     'node_types' => array(),
     'pages' => '',
-    'roles' => array(
-      'Admin' => 3,
-      'Community Moderator' => 4,
-      'Content Manager' => 5,
-    ),
+    'roles' => array(),
     'themes' => array(
       'custom_theme' => array(
         'region' => 'sidebar_first',
