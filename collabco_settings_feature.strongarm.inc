@@ -195,6 +195,26 @@ function collabco_settings_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
+  $strongarm->name = 'field_bundle_settings_node__basic_page';
+  $strongarm->value = array(
+    'view_modes' => array(),
+    'extra_fields' => array(
+      'form' => array(
+        'title' => array(
+          'weight' => '-5',
+        ),
+        'path' => array(
+          'weight' => '30',
+        ),
+      ),
+      'display' => array(),
+    ),
+  );
+  $export['field_bundle_settings_node__basic_page'] = $strongarm;
+
+  $strongarm = new stdClass();
+  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
+  $strongarm->api_version = 1;
   $strongarm->name = 'image';
   $strongarm->value = '';
   $export['image'] = $strongarm;
@@ -361,19 +381,12 @@ function collabco_settings_feature_strongarm() {
   $strongarm = new stdClass();
   $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
   $strongarm->api_version = 1;
-  $strongarm->name = 'locale_custom_disabled_strings_en';
-  $strongarm->value = array();
-  $export['locale_custom_disabled_strings_en'] = $strongarm;
-
-  $strongarm = new stdClass();
-  $strongarm->disabled = FALSE; /* Edit this to true to make a default strongarm disabled initially */
-  $strongarm->api_version = 1;
   $strongarm->name = 'locale_custom_strings_en';
   $strongarm->value = array(
     '' => array(
       'Enter the username to masquerade as.' => '',
-      'Save' => 'Submit',
       'New content' => 'Add a new file',
+      'Save' => 'Submit',
     ),
   );
   $export['locale_custom_strings_en'] = $strongarm;
