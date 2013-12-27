@@ -25,10 +25,10 @@ function collabco_settings_feature_default_fe_block_settings() {
     ),
     'themes' => array(
       'custom_theme' => array(
-        'region' => 'sidebar_first',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'custom_theme',
-        'weight' => -22,
+        'weight' => -21,
       ),
       'seven' => array(
         'region' => '',
@@ -54,10 +54,10 @@ function collabco_settings_feature_default_fe_block_settings() {
     ),
     'themes' => array(
       'custom_theme' => array(
-        'region' => 'sidebar_second',
-        'status' => 1,
+        'region' => '',
+        'status' => 0,
         'theme' => 'custom_theme',
-        'weight' => -22,
+        'weight' => -21,
       ),
       'seven' => array(
         'region' => '',
@@ -81,10 +81,10 @@ function collabco_settings_feature_default_fe_block_settings() {
     'roles' => array(),
     'themes' => array(
       'custom_theme' => array(
-        'region' => 'sidebar_first',
+        'region' => 'sidebar_second',
         'status' => 1,
         'theme' => 'custom_theme',
-        'weight' => -22,
+        'weight' => 10,
       ),
       'seven' => array(
         'region' => '',
