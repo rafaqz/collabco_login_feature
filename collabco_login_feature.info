@@ -1,4 +1,4 @@
-name = Collabco Settings Feature
+name = Collabco Login Feature
 core = 7.x
 package = Collabco
 php = 5.2.4
