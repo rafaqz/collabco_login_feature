@@ -4,4 +4,4 @@
  * Code for the Collabco Settings Feature feature.
  */
 
-include_once 'collabco_settings_feature.features.inc';
+include_once 'collabco_login_feature.features.inc';
