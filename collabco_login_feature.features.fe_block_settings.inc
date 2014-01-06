@@ -25,8 +25,8 @@ function collabco_login_feature_default_fe_block_settings() {
     ),
     'themes' => array(
       'custom_theme' => array(
-        'region' => '',
-        'status' => 0,
+        'region' => 'sidebar_second',
+        'status' => 1,
         'theme' => 'custom_theme',
         'weight' => 0,
       ),
