@@ -2,6 +2,7 @@ name = Collabco Login Feature
 core = 7.x
 package = Collabco
 project = collabco_login_feature
+dependencies[] = ctools
 dependencies[] = fe_block
 dependencies[] = logintoboggan
 dependencies[] = reg_with_pic
