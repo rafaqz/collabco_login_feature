@@ -24,10 +24,10 @@ function collabco_login_feature_default_fe_block_settings() {
       'anonymous user' => 1,
     ),
     'themes' => array(
-      'custom_theme' => array(
-        'region' => 'sidebar_second',
-        'status' => 1,
-        'theme' => 'custom_theme',
+      'custom_zurb' => array(
+        'region' => '',
+        'status' => 0,
+        'theme' => 'custom_zurb',
         'weight' => 0,
       ),
       'seven' => array(
