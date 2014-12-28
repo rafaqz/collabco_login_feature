@@ -1,6 +1,6 @@
-name = Collabco Login Feature
+name = Login Feature
 core = 7.x
-package = Collabco
+package = Features
 project = login_feature
 dependencies[] = ctools
 dependencies[] = fe_block
