@@ -1,13 +1,13 @@
 <?php
 /**
  * @file
- * collabco_login_feature.features.menu_custom.inc
+ * login_feature.features.menu_custom.inc
  */
 
 /**
  * Implements hook_menu_default_menu_custom().
  */
-function collabco_login_feature_menu_default_menu_custom() {
+function login_feature_menu_default_menu_custom() {
   $menus = array();
 
   // Exported menu: user-menu.
